@@ -41,7 +41,7 @@ function Signup() {
 
   return (
     <>
-      <main className="w-[screen] md:h-screen xl:h-[920px] px-4 bg-[url('src/images/Signup.svg')] bg-cover bg-center bg-no-repeat">
+      <main className="w-[screen]  h-[screen] px-4 bg-[url('/images/Signup.svg')] bg-cover bg-center bg-no-repeat">
         <div className="py-5 px-5">
           <div className="bg-white h-[35px] rounded-full w-[35px]">
             <NavLink
@@ -156,7 +156,8 @@ function Signup() {
                   </div>
                 )}
 
-                <NavLink to={"/Home"}
+                <NavLink
+                  to={"/Home"}
                   type="submit"
                   className="text-white font-inter bg-[red] rounded-xl text-1xl flex items-center justify-center h-[40px] w-[100%]"
                 >

@@ -10,7 +10,7 @@ function Login() {
   };
   return (
     <>
-      <main className=" w-[screen] bg-[url('public/login.svg')]    md:h-fit xl:h-[900px]  bg-cover bg-center bg-no-repeat">
+      <main className=" w-[screen] bg-[url('/images/login.svg')]    md:h-fit xl:h-[900px]  bg-cover bg-center bg-no-repeat">
         <div className="  py-5   px-5 ">
           <div className="bg-white h-[35px]  rounded-full w-[35px]">
             <NavLink
