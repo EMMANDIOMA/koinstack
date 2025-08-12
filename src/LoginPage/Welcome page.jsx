@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function Welcome() {
   return (
     <>
-      <main className="h-screen bg-[url('/images/welcome.svg')] bg-cover bg-center bg-no-repeat flex flex-col items-center justify-end">
+      <main className="h-screen bg-[url('/images/Welcome.svg')] bg-cover bg-center bg-no-repeat flex flex-col items-center justify-end">
         <div className="w-full max-w-md flex flex-col items-center gap-4 pb-8 px-4">
           <NavLink
             to="/Signup"

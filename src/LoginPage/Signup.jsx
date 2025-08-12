@@ -42,7 +42,7 @@ function Signup() {
   return (
     <>
       <main className="w-[screen]  h-[screen] px-4 bg-[url('/images/Signup.svg')] bg-cover bg-center bg-no-repeat">
-        <div className="py-5 px-5">
+        <div className="py-3 px-5">
           <div className="bg-white h-[35px] rounded-full w-[35px]">
             <NavLink
               to={"/"}
