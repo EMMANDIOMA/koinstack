@@ -22,8 +22,8 @@ function Home() {
             <div className="flex items-center    flex-row py-2 gap-4">
               <div className="flex gap-3">
                 <img
-                  className=" w-[50px] h-[50px] border-[#8FEBFF] border-2 rounded-full"
-                  src="src/images/profile.jpeg"
+                  className=" w-[65px] h-[60px] border-[#8FEBFF] border-2 rounded-full"
+                  src="/profile.jpeg"
                   alt=""
                 />
                 <p className="pt-5 ">Hi, Chidera</p>

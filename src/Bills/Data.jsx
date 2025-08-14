@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { NavLink } from "react-router-dom";
 import { MdArrowBackIos } from "react-icons/md";
 const Data = () => {
@@ -28,7 +28,7 @@ const Data = () => {
               <div className="flex py-2 gap-3">
                 <img
                   className=" w-[50px] h-[50px] border-[#8FEBFF] border-2 rounded-full"
-                  src="src/images/MTN.jpg"
+                  src="/MTN.jpg"
                   alt=""
                 />
                 <p className="pt-3">MTN</p>
@@ -41,7 +41,7 @@ const Data = () => {
               <div className="flex py-2 gap-3">
                 <img
                   className=" w-[50px] h-[50px] border-[#8FEBFF] border-2 rounded-full"
-                  src="src/images/AIRTEL.jpg"
+                  src="/AIRTEL.jpg"
                   alt=""
                 />
                 <p className="pt-3.5 ">AIRTEL</p>
@@ -54,7 +54,7 @@ const Data = () => {
               <div className="flex py-3 gap-3">
                 <img
                   className=" w-[50px] border-[#8FEBFF] border-2 rounded-full"
-                  src="src/images/Glo.jpg"
+                  src="/Glo.jpg"
                   alt=""
                 />
                 <p className="pt-3 ">GLO</p>
@@ -67,7 +67,7 @@ const Data = () => {
               <div className="flex  py-4 gap-3">
                 <img
                   className=" w-[50px] h-[50px]  border-[#8FEBFF] border-2 rounded-full"
-                  src="src/images/9mobile.jpg"
+                  src="/9mobile.jpg"
                   alt=""
                 />
                 <p className="pt-3 text-center ">9mobile</p>
@@ -78,6 +78,6 @@ const Data = () => {
       </main>
     </>
   );
-}
+};
 
-export default Data
+export default Data;

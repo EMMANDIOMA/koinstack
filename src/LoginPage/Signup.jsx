@@ -157,7 +157,7 @@ function Signup() {
                 )}
 
                 <NavLink
-                  to={"/Home"}
+                  to={"/Onboarding"}
                   type="submit"
                   className="text-white font-inter bg-[red] rounded-xl text-1xl flex items-center justify-center h-[40px] w-[100%]"
                 >

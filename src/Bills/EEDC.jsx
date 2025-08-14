@@ -8,7 +8,7 @@ const EEDC = () => {
   const [isOpen, SetIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState({
     name: "EEDC Prepaid",
-    image: "/src/images/EEDC.jpg",
+    image: "/EEDC.jpg",
   });
   const Dropdown = () => SetIsOpen(!isOpen);
   const handleOptionClick = (option) => {
@@ -16,8 +16,8 @@ const EEDC = () => {
     SetIsOpen(false);
   };
   const options = [
-    { name: "EEDC Postpaid", image: "/src/images/EEDC.jpg" },
-    { name: "EEDC Prepaid", image: "/src/images/EEDC.jpg" },
+    { name: "EEDC Postpaid", image: "/EEDC.jpg" },
+    { name: "EEDC Prepaid", image: "/EEDC.jpg" },
   ];
   const filteredOptions = options.filter(
     (option) => option.name !== selectedOption.name

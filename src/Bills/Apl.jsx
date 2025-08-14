@@ -7,7 +7,7 @@ const Apl = () => {
   const [isOpen, SetIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState({
     name: "APL Prepaid",
-    image: "/src/images/APL.jpg",
+    image: "/APL.jpg",
   });
   const Dropdown = () => SetIsOpen(!isOpen);
   const handleOptionClick = (option) => {
@@ -15,8 +15,8 @@ const Apl = () => {
     SetIsOpen(false);
   };
   const options = [
-    { name: "APL Postpaid", image: "/src/images/APL.jpg" },
-    { name: "APL Prepaid", image: "/src/images/APL.jpg" },
+    { name: "APL Postpaid", image: "/APL.jpg" },
+    { name: "APL Prepaid", image: "/APL.jpg" },
   ];
   const filteredOptions = options.filter(
     (option) => option.name !== selectedOption.name

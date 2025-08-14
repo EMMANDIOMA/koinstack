@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 function Onboarding() {
   return (
     <>
-      <main className="h-screen w-[screen] bg-[url('/images/Background.svg')] sm:h-screen     bg-cover bg-center bg-no-repeat">
+      <main className="h-screen w-[screen] bg-[url('/Background.svg')] min-h-screen     bg-cover bg-center bg-no-repeat">
         <div className="py-4 px-4">
           <img src={Koinstack} alt="" width="50%" />
         </div>

@@ -25,8 +25,8 @@ const Setting = () => {
           <div className="h-fit  flex px-4  bg-white rounded-lg w-full">
             <div className="flex  flex-row py-2 gap-4">
               <img
-                className=" w-fit h-[60px] border-[#8FEBFF] border-2 rounded-full"
-                src="src/images/MTN.jpg"
+                className=" w-[65px] h-[60px] border-[#8FEBFF] border-2 rounded-full"
+                src="/profile.jpeg"
                 alt=""
               />
               <div className="flex  pt-3 flex-col">

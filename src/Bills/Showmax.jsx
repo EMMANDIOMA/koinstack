@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { MdArrowBackIos } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
@@ -26,7 +26,7 @@ const Showmax = () => {
               <div className="flex py-2 gap-3">
                 <img
                   className=" w-[50px] h-[50px] border-[#8FEBFF] border-2 rounded-full"
-                  src="src/images/Showmax.jpg"
+                  src="/Showmax.jpg"
                   alt=""
                 />
                 <p className="pt-3">Showmax</p>
@@ -66,6 +66,6 @@ const Showmax = () => {
       </main>
     </>
   );
-}
+};
 
-export default Showmax
+export default Showmax;

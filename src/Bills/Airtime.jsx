@@ -8,7 +8,7 @@ const Airtime = () => {
   const [isOpen, SetIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState({
     name: "MTN",
-    image: "/src/images/MTN.jpg",
+    image: "/MTN.jpg",
   });
   const toogleDropdown = () => SetIsOpen(!isOpen);
   const handleOptionClick = (option) => {
@@ -16,10 +16,10 @@ const Airtime = () => {
     SetIsOpen(false);
   };
   const options = [
-    { name: "MTN", image: "/src/images/MTN.jpg" },
-    { name: "AIRTEL", image: "/src/images/AIRTEL.jpg" },
-    { name: "GLO", image: "/src/images/GLO.jpg" },
-    { name: "9mobile", image: "/src/images/9mobile.jpg" },
+    { name: "MTN", image: "/MTN.jpg" },
+    { name: "AIRTEL", image: "/AIRTEL.jpg" },
+    { name: "GLO", image: "/Glo.jpg" },
+    { name: "9mobile", image: "/9mobile.jpg" },
   ];
   const [amount, setAmount] = useState("");
   const handleAmountclick = (value) => {

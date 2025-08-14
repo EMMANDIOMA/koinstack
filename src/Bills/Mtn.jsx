@@ -26,7 +26,7 @@ const Mtn = () => {
               <div className="flex py-2 gap-3">
                 <img
                   className=" w-[50px] h-[50px] border-[#8FEBFF] border-2 rounded-full"
-                  src="src/images/MTN.jpg"
+                  src="/MTN.jpg"
                   alt=""
                 />
                 <p className="pt-3">MTN</p>

@@ -9,7 +9,7 @@ const Betting = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState({
     name: "sporty",
-    image: "/src/images/sporty.png",
+    image: "/Sporty.png",
   });
   const toggleDropdown = () => setIsOpen(!isOpen);
   const handleOptionClick = (option) => {
@@ -17,12 +17,12 @@ const Betting = () => {
     setIsOpen(false);
   };
   const options = [
-    { name: "1xbet", image: "/src/images/1xbet.jpg" },
-    { name: "sporty", image: "/src/images/sporty.png" },
-    { name: "Bet9ja", image: "/src/images/Bet9ja.png" },
-    { name: "Betking", image: "/src/images/Betking.png" },
+    { name: "1xbet", image: "/1xbet.jpg" },
+    { name: "Sporty", image: "/Sporty.png" },
+    { name: "Bet9ja", image: "/Bet9ja.png" },
+    { name: "Betking", image: "/Betking.png" },
 
-    { name: "Msport", image: "/src/images/Msport.png" },
+    { name: "Msport", image: "/Msport.png" },
   ];
   const [amount, setAmount] = useState("");
   const handleAmountclick = (value) => {

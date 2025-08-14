@@ -26,7 +26,7 @@ const Mobile9 = () => {
               <div className="flex py-2 gap-3">
                 <img
                   className=" w-[50px] h-[50px] border-[#8FEBFF] border-2 rounded-full"
-                  src="src/images/9mobile.jpg"
+                  src="/9mobile.jpg"
                   alt=""
                 />
                 <p className="pt-3">9Mobile</p>

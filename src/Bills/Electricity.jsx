@@ -31,7 +31,7 @@ const Electricity = () => {
               <div className="flex py-2 gap-3">
                 <img
                   className=" w-14 border-[#8FEBFF] border-2 rounded-full"
-                  src="src/images/EEDC.jpg"
+                  src="/EEDC.jpg"
                   alt=""
                 />
                 <p className="pt-3">EEDC</p>
@@ -44,7 +44,7 @@ const Electricity = () => {
               <div className="flex py-2 gap-3">
                 <img
                   className=" w-14 border-[#8FEBFF] border-2 rounded-full"
-                  src="src/images/APL.jpg"
+                  src="/APL.jpg"
                   alt=""
                 />
                 <p className="pt-3 ">APL Electric</p>

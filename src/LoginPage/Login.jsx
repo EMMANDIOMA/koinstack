@@ -10,7 +10,7 @@ function Login() {
   };
   return (
     <>
-      <main className=" w-screen bg-[url('/images/Login.svg')] sm:h-screen h-screen  bg-cover bg-center bg-no-repeat">
+      <main className=" w-screen bg-[url('/images/Login.svg')]  min-h-screen  bg-cover bg-center bg-no-repeat">
         <div className=" py-4   px-5 ">
           <div className="bg-white h-[35px]   rounded-full w-[35px]">
             <NavLink

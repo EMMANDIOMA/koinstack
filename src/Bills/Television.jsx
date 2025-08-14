@@ -29,7 +29,7 @@ const Television = () => {
               <div className="flex py-2 gap-3">
                 <img
                   className=" w-14 border-[#8FEBFF] border-2 rounded-full"
-                  src="src/images/DSTV.jpg"
+                  src="/DSTV.jpg"
                   alt=""
                 />
                 <p className="pt-3">DSTV</p>
@@ -42,7 +42,7 @@ const Television = () => {
               <div className="flex py-2 gap-3">
                 <img
                   className=" w-14 border-[#8FEBFF] border-2 rounded-full"
-                  src="src/images/GOTV.jpg"
+                  src="/GOTV.jpg"
                   alt=""
                 />
                 <p className="pt-3.5 ">GOTV</p>
@@ -55,7 +55,7 @@ const Television = () => {
               <div className="flex py-2 gap-3">
                 <img
                   className=" w-14 border-[#8FEBFF] border-2 rounded-full"
-                  src="src/images/STAR.jpg"
+                  src="/STAR.jpg"
                   alt=""
                 />
                 <p className="pt-3.5 ">STARTIMES</p>
@@ -68,7 +68,7 @@ const Television = () => {
               <div className="flex py-2 gap-3">
                 <img
                   className=" w-14 border-[#8FEBFF] border-2 rounded-full"
-                  src="src/images/showmax.jpg"
+                  src="/Showmax.jpg"
                   alt=""
                 />
                 <p className="pt-3.5 ">SHOWMAX</p>
