@@ -2,9 +2,9 @@ import React from "react";
 
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import Efficiency from "../images/Efficiency.svg";
-import Security from "../images/Security.svg";
-import Simplicity from "../images/Simplicity.svg";
+import Efficiency from "/Efficiency.svg";
+import Security from "/Security.svg";
+import Simplicity from "/Simplicity.svg";
 
 function Carousel() {
   const [CurrentINdex, SetCurrentIndex] = useState(0);

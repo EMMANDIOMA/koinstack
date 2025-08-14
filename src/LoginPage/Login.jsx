@@ -10,9 +10,9 @@ function Login() {
   };
   return (
     <>
-      <main className=" w-[screen] bg-[url('/images/Login.svg')]    md:h-fit xl:h-[900px]  bg-cover bg-center bg-no-repeat">
-        <div className="  py-5   px-5 ">
-          <div className="bg-white h-[35px]  rounded-full w-[35px]">
+      <main className=" w-screen bg-[url('/images/Login.svg')] sm:h-screen h-screen  bg-cover bg-center bg-no-repeat">
+        <div className=" py-4   px-5 ">
+          <div className="bg-white h-[35px]   rounded-full w-[35px]">
             <NavLink
               to={"/"}
               className="flex font-extrabold pt-1 justify-center "
@@ -24,11 +24,11 @@ function Login() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center gap-5 justify-center pt-[260px] ">
+        <div className="flex flex-col items-center gap-5 justify-center pb-4 pt-[260px] ">
           <p className="text-white text-2xl font-bold font-inter">
             Welcome Back
           </p>
-          <div className=" w-[90%] md:w-[60%] h-fit px-4 rounded-3xl  bg-gradient-to-r from-[rgba(0,0,0,0.3)] via-[rgba(0,0,0,0.3)] to-[rgba(0,0,0,0.6)]">
+          <div className=" w-[90%] md:w-[65%]  h-fit px-4 rounded-3xl  bg-gradient-to-r from-[rgba(0,0,0,0.3)] via-[rgba(0,0,0,0.3)] to-[rgba(0,0,0,0.6)]">
             <form action="">
               <div className="flex py-3 flex-col">
                 <div className="flex flex-col gap-2">
@@ -67,7 +67,7 @@ function Login() {
                     Login
                   </NavLink>
                 </div>
-                <div className="text-white flex gap-2 justify-center pt-16 font-inter font-bold sm:pt-20">
+                <div className="text-white flex gap-2 justify-center pt-5 font-inter font-bold sm:pt-5">
                   <p>I'm a new user.</p>
                   <NavLink to={"/Signup"}>Signup</NavLink>
                 </div>

@@ -41,7 +41,7 @@ function Signup() {
 
   return (
     <>
-      <main className="w-[screen]  h-[screen] px-4 bg-[url('/images/Signup.svg')] bg-cover bg-center bg-no-repeat">
+      <main className="w-full min-h-screen     px-4 bg-[url('/images/Signup.svg')] bg-cover bg-center bg-no-repeat">
         <div className="py-3 px-5">
           <div className="bg-white h-[35px] rounded-full w-[35px]">
             <NavLink
@@ -55,7 +55,7 @@ function Signup() {
           </div>
         </div>
 
-        <div className="text-white font-inter flex flex-col justify-center items-center pt-[90px]">
+        <div className="text-white font-inter flex pb-3 flex-col justify-center items-center pt-[105px]">
           <p className="text-2xl font-bold">Create Account</p>
           <p className="pb-6">Lets get started</p>
 
@@ -164,7 +164,7 @@ function Signup() {
                   Signup
                 </NavLink>
 
-                <div className="text-white flex gap-2 justify-center pt-16 font-inter font-bold sm:pt-20">
+                <div className="text-white flex gap-2 justify-center pt-8 font-inter font-bold sm:pt-14">
                   <p>I'm already a user.</p>
                   <NavLink to={"/Login"}>Login</NavLink>
                 </div>
